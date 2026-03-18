@@ -2,7 +2,7 @@ package basicprograms;
 
 import java.util.Scanner;
 
-public class reverseAinteger {
+public class reverseInteger {
 	
 	public static void main (String[] args) {
 		
