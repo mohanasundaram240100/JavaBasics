@@ -41,9 +41,33 @@ public class Looping_Statements {
 			
 			k++;
 			
-			
 		}
 		
+		
+		
+		//Do while loop example
+		
+		int m=1;
+		
+		do 
+		{ 
+			System.out.println(m);
+			m++;
+			
+		}while(m<=18);
+		
+		
+		
+		//Example 2
+		
+		int n=25;
+		
+		do
+		{
+			
+			System.out.println(n);
+			n--;
+		}while(n>=0);
 		
 		
 		
