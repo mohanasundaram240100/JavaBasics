@@ -76,7 +76,7 @@ public class StringMethods {
 		String replaced = drums.replace('l', 'Y');
 		System.out.println(replaced);
 		
-		System.out.println(drums.replaceAll("a", "Mohan"));
+		//System.out.println(drums.replaceAll("a", "Mohan"));
 		
 		
 		//substring() methods (extract the substring from the main string)
