@@ -8,7 +8,6 @@ public class ArrayList {
 		
 		ArrayList arr = new ArrayList();
 		
-		List<String> arr1 = new ArrayList<String>();
 		
 		
 		

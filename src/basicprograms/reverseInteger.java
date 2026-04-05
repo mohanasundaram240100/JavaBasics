@@ -17,9 +17,8 @@ public class reverseInteger {
 		int num=0;
 		int reverse=0;
 
-		System.out.println("Enter number: ");
-
 		Scanner scanner =new Scanner(System.in);
+		System.out.println("Enter number: ");
 		num=scanner.nextInt();
 
 
