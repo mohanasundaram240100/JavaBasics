@@ -1,5 +1,6 @@
 package Collections;
 
+import java.util.ArrayList;
 import java.util.HashSet;
 import java.util.Iterator;
 import java.util.Set;
@@ -22,6 +23,15 @@ public class HashSetExample {
 		myset.add(null); //HashSet allows null values, but only one null value can be added
 		myset.add(null);
 		myset.add('A');
+		myset.add(3.14); //Duplicate value, will not be added to the HashSet
+		
+		myset.remove(3.14); //Removes the specified element from the HashSet if it is present
+		
+		boolean result =myset.contains("Mohan"); //Returns true if the HashSet contains the specified element
+		System.out.println("Mohan is Present : " + result);
+		
+		System.out.println(myset);
+		
 		
 		Iterator<Object> it =myset.iterator();
 		while(it.hasNext())
@@ -30,7 +40,12 @@ public class HashSetExample {
 		}
 		
 		
-		System.out.println(myset);
+		//Converting HashSet to ArrayList collection
+		
+		ArrayList list = new ArrayList(myset);  //Using the constructor of ArrayList to convert HashSet to ArrayList
+		System.out.println(list.get(0)); 		//Accessing the first element of the ArrayList using the get() method
+		
+		
 		
 	}
 	

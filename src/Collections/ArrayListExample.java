@@ -21,6 +21,9 @@ public class ArrayListExample {
 		mylist.add('A');
 		mylist.remove(3);
 		
+		boolean result = mylist.contains("Mohan");
+		System.out.println("Mohan is Present : " + result);
+		
 		System.out.println(mylist);
 		
 		ArrayList mylist1 = new ArrayList();
