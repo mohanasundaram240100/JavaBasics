@@ -17,7 +17,9 @@ public class ArrayListExample {
 		mylist.add("Mohan");
 		mylist.add(100);
 		mylist.add(10.5);
+		mylist.add(10.5);
 		mylist.add('A');
+		mylist.remove(3);
 		
 		System.out.println(mylist);
 		
