@@ -10,6 +10,8 @@ public class Variable_DataTypes {
 		double c = 120.2;
 		char d = 'A';
 		String e = "Mohan";
+		
+		
 	}
 
 }

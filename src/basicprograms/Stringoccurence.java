@@ -6,8 +6,8 @@ public class Stringoccurence {
 	public static void main (String[] args) {
 
 		String input = "Swiss"; //input value
-		char toFind = 'S'; //need to find the character
-		int present = 0;   //initial value 0
+		char toFind = 'S'; 		//need to find the character
+		int present = 0;   		//initial value 0
 
 		input.toLowerCase();  //converting the case sensitive values to lowercase values
 
