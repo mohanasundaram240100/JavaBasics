@@ -9,9 +9,5 @@ public class Variables_Datatypes {
 		char c='a';
 		String d="ABCD";
 		
-		
-		
-		
-		
 	}
 }
