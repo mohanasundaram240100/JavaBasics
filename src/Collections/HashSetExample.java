@@ -43,7 +43,7 @@ public class HashSetExample {
 		//Converting HashSet to ArrayList collection
 		
 		ArrayList list = new ArrayList(myset);  //Using the constructor of ArrayList to convert HashSet to ArrayList
-		System.out.println(list.get(0)); 		//Accessing the first element of the ArrayList using the get() method
+		System.out.println(list.get(3)); 		//Accessing the first element of the ArrayList using the get() method
 		
 		
 		
