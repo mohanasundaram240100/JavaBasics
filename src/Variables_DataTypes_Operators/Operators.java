@@ -4,7 +4,12 @@ public class Operators {
 	
 	public static void main (String[] args) {
 		
+		int a = 182;
+		int b = 9071;
 		
+		int result = a+b;
+		
+		System.out.println(result);
 		
 	}
 	
