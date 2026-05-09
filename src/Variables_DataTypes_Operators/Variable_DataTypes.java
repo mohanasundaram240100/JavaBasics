@@ -1,4 +1,4 @@
-package Variables_DataTypes;
+package Variables_DataTypes_Operators;
 
 public class Variable_DataTypes {
 
