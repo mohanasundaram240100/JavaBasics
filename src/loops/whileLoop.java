@@ -17,6 +17,7 @@ public class whileLoop {
 		
 		*/
 		
+		/*
 		
 		int i=2;
 		
@@ -24,10 +25,26 @@ public class whileLoop {
 		{
 			if(i%2==0)
 			{
-				System.out.println(i);	
+				System.out.println(i + " is even number");	
+			} 
+			else
+			{
+				System.out.println(i + " is odd number");
 			}
 			
 			i++;
+			
+		}
+		
+		*/
+		
+		
+		int i=10;
+		
+		while(i>=0)
+		{
+			System.out.println(i);
+			i--;
 			
 		}
 		
