@@ -27,6 +27,18 @@ public class SingleDimArray {
 		}
 
 		
+		int[] c = {111, 222, 333, 444, 555};
+		
+		//while loop
+		
+		int i=0;
+		while(i<c.length)
+		{
+			System.out.println(c[i]);
+			i++;
+			
+		}
+		
 		
 		
 	}
