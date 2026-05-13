@@ -15,6 +15,23 @@ public class reverseAString {
 		System.out.println(rev);
 		
 		
+		
+		
+		
+		
+		String input1 = "Mohan";
+		String rev1 = "";
+		
+		char a[] = input1.toCharArray();
+		
+		for(char x : a)
+		{
+			rev1 = x+rev1;  
+		}
+		System.out.println(rev1);
+		
+		
+		 
 	}
 
 }
