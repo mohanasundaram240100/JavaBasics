@@ -21,6 +21,9 @@ public class stringMethods {
 		System.out.println(name.equals("mohanasundaram"));
 		
 		System.out.println(name.equalsIgnoreCase("mohanaSundaram"));
+		
+		
+		System.out.println(name.replace("Mohanasundaram", "Mohan"));
 	
 	
 	
