@@ -4,7 +4,7 @@ public class reverseAString {
 
 	public static void main(String[] args) {
 
-		String input = "Mohanasundaram";
+		String input = "madam";
 		String rev = "";
 		
 		for (int i=input.length()-1;i>=0;i--)
@@ -12,8 +12,17 @@ public class reverseAString {
 			rev = rev + input.charAt(i);
 			
 		}
+		
 		System.out.println(rev);
 		
+		if(input.equals(rev))
+		{
+			System.out.println(rev + " " +"String is Palindrome");
+		}
+		else
+		{
+			System.out.println("String is not Palindrome");
+		}
 		
 		
 		
