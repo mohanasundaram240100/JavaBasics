@@ -14,15 +14,22 @@ public class objects_methods {
 	
 	//Methods
 	
-	public static void employee()
+	void employee()
 	{
-		System.out.println("Name");
+		System.out.println(name);
+		System.out.println(age);
+		System.out.println(desig);
 	}
 	
 	
 	public static void main (String[] args) {
 		
-		
+		objects_methods emp = new objects_methods();
+		emp.name="Mohan";
+		emp.age=26;
+		emp.desig="Software Engineer";
+		//System.out.println(emp.age);
+		emp.employee();
 		
 		
 	}
