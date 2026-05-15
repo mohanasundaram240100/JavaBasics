@@ -8,6 +8,9 @@ public class HashMapExample {
 	public static void main (String[] args) {
 		
 		HashMap mymap = new HashMap();
+		
+		HashMap<Object, Object> mymap1 = new HashMap<>();
+		
 		mymap.put("Name", "Mohan");
 		mymap.put("Age", 26);
 		mymap.put("City", "Bangalore");
@@ -16,13 +19,14 @@ public class HashMapExample {
 		mymap.put(25, 265465545);
 		//mymap.remove(25);
 		
+		mymap1.put("Name", "Mohanasundaram");
 		
 		for(Object x:mymap.entrySet())
 		{
 			System.out.println(x);
 		}
 		
-		
+		System.out.println(mymap1.put("Name", "Mohanasundaram"));
 		
 		
 	}
