@@ -23,6 +23,7 @@ public class main_method {
 		System.out.println(name);
 		
 		
+		
 	}
 
 }
