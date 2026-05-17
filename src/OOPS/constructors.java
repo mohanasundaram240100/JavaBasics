@@ -2,10 +2,13 @@ package OOPS;
 
 public class constructors 
 {
+	//Class variables
+	
 	int id;
 	String name;
 	int age;
 	
+	//Using local variables
 	constructors(int id1, String name1, int age1)
 	{
 		id=id1;
