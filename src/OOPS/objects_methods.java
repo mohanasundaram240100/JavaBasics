@@ -32,6 +32,9 @@ public class objects_methods {
 		emp.employee();
 		
 		
+		
+		
+		
 	}
 
 }

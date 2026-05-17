@@ -11,6 +11,7 @@ public class dummy_methods {
 		
 	}
 	
+	//No parameter some return values
 	
 	String withdata()
 	{
@@ -18,12 +19,16 @@ public class dummy_methods {
 		
 	}
 	
+	//with parameter no return value
+	
 	
 	void stringData(String name, Integer age)
 	{
 	
 		System.out.println("Hello" + " " +name + " " + age);
 	}
+	
+	//with parameter with return value
 	
 	
 	String withSdata(String name)
