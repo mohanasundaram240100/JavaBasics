@@ -20,7 +20,6 @@ public class employee {
 	//getter and setter method for age
 	
 	public int getage()
-	
 	{
 		return age;
 	}
