@@ -2,6 +2,9 @@ package OOPS;
 
 public class main_method {
 	
+	static int a;
+	static int b;
+	
 	public static void main (String[] args) {
 		
 		
@@ -21,7 +24,6 @@ public class main_method {
 		
 		String name=dm1.withSdata("Mohanasundaram");
 		System.out.println(name);
-		
 		
 		
 	}
