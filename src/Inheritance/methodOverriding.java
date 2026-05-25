@@ -13,6 +13,7 @@ class parent
 	}
 }
 
+
 class child extends parent
 {
 	int A=300;
