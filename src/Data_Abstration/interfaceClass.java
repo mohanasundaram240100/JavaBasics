@@ -31,26 +31,24 @@ interface demo
 
 
 
-public class interfaceClass implements demo
+public class interfaceClass 
 {
 	public static void main (String[] args)
 	{
-		void test()   //This is the implementation of the abstract method of the interface.
-		{
-			System.out.println("This is a test method");
-			System.out.println(name);
-			System.out.println(Age);
-		}
+	
+		demo d = new demo() {  //Anonymous class to implement the interface
+			@Override
+			public void test() {
+				System.out.println("This is an abstract method");
+				
+			}
+		};
 		
-		void test1()   //This is the overriding of the default method of the interface.
-		{
-			System.out.println("This is an overridden default method");
-		}
+		d.test(); //Calling the abstract method
+		d.test1(); //Calling the default method
+		demo.test2(); //Calling the static method
 		
-		void test2()   //This is the overriding of the static method of the interface. It is not possible to override a static method, so this will be treated as a new method in the implementing class.
-		{
-			System.out.println("This is an overridden static method");
-		}
+	
 		
 	}
 	
