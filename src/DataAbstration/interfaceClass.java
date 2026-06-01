@@ -1,5 +1,7 @@
 package Data_Abstration;
 
+import Data_Abstration.demo;
+import Data_Abstration.interfaceClass;
 
 interface demo
 {
