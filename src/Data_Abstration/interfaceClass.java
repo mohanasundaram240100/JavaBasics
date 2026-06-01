@@ -12,14 +12,15 @@ interface demo
 	//Abstract methods is having only declaration and no implementation. These methods are by default public and abstract.
 	
 	void test();   //abstract method
+	public abstract void test1(); //abstract method
+
 	
-	
-	default void test1() //Default method is having implementation and it is not abstract. It is introduced in java 8. It can be overridden by the implementing class.
+	default void test2() //Default method is having implementation and it is not abstract. It is introduced in java 8. It can be overridden by the implementing class.
 	{
 		System.out.println("This is a default method");
 	}
 	
-	static void test2() //Static method is having implementation and it is not abstract. It is introduced in java 8. It cannot be overridden by the implementing class.
+	static void test3() //Static method is having implementation and it is not abstract. It is introduced in java 8. It cannot be overridden by the implementing class.
 	{
 		System.out.println("This is a static method");
 	}
@@ -36,19 +37,9 @@ public class interfaceClass
 	public static void main (String[] args)
 	{
 	
-		demo d = new demo() {  //Anonymous class to implement the interface
-			@Override
-			public void test() {
-				System.out.println("This is an abstract method");
-				
-			}
-		};
 		
-		d.test(); //Calling the abstract method
-		d.test1(); //Calling the default method
-		demo.test2(); //Calling the static method
 		
-	
+		
 		
 	}
 	
