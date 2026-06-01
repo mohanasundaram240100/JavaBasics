@@ -5,8 +5,8 @@ interface demo
 {
 	//These variables are by default static and final
 	
-	String name = "Mohan";   
-	int Age=26;
+	static String name = "Mohan";   
+	final static int Age=26;
 	
 	
 	//Abstract methods is having only declaration and no implementation. These methods are by default public and abstract.
