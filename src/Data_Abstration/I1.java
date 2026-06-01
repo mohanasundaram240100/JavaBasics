@@ -1,6 +1,6 @@
 package Data_Abstration;
 
-public interface interfaceDemo 
+public interface I1 
 {
 	void add();
 	void sub();

@@ -11,6 +11,7 @@ interface demo
 	
 	//Abstract methods is having only declaration and no implementation. These methods are by default public and abstract.
 	
+	
 	void test();   //abstract method
 	public abstract void test1(); //abstract method
 
@@ -32,16 +33,26 @@ interface demo
 
 
 
-public class interfaceClass 
+public class interfaceClass implements demo
 {
-	public static void main (String[] args)
+	@Override
+	public void test()
 	{
-	
-		
-		
-		
-		
+		System.out.println("This is a abstract method");
 	}
 	
-
+	@Override
+	public void test1()
+	{
+		System.out.println("This is another abstract method");
+	}
+	
+	public static void main (String[] args)
+	{
+		interfaceClass obj = new interfaceClass();
+		obj.test();
+		obj.test1();
+		obj.test2();
+		demo.test3();
+	}
 }
