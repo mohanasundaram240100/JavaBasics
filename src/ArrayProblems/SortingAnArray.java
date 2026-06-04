@@ -17,6 +17,8 @@ public class SortingAnArray {
 		
 		System.out.println();
 		
+		
+		
 		for (int x : array)
 		{
 			System.out.print(x + " ");

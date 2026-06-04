@@ -15,18 +15,18 @@ public class HashMapExample {
 		mymap.put("Age", 26);
 		mymap.put("City", "Bangalore");
 		mymap.put("Age", 27);
+		mymap.put(25, 2654655452L);
 		mymap.put(25, 265465545);
-		mymap.put(25, 265465545);
-		//mymap.remove(25);
+		mymap.remove(25);
 		
-		mymap1.put("Name", "Mohanasundaram");
+		mymap.put("Name", "Mohanasundaram");
 		
 		for(Object x:mymap.entrySet())
 		{
 			System.out.println(x);
 		}
 		
-		System.out.println(mymap1.put("Name", "Mohanasundaram"));
+		//System.out.println(mymap1.put("Name", "Mohanasundaram"));
 		
 		
 	}

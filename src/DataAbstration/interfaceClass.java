@@ -15,7 +15,7 @@ interface demo
 	
 	
 	void test();   //abstract method
-	public abstract void test1(); //abstract method
+	abstract void test1(); //abstract method
 
 	
 	default void test2() //Default method is having implementation and it is not abstract. It is introduced in java 8. It can be overridden by the implementing class.

@@ -12,7 +12,7 @@ public class SortingStringArrays {
 		
 		char input1[]= {'a','e','i','o','u','b','c','d'};
 		
-		System.out.println(Arrays.toString(input1));
+		//System.out.println(Arrays.toString(input1));
 		
 		Arrays.sort(input1);
 		
@@ -22,7 +22,9 @@ public class SortingStringArrays {
 		//Using String array to sort the strings in ascending order
 		
 		String input2[]= {"Mohan", "Kannan", "Lokesh", "Mangalam", "Baskar"};
-		System.out.println(Arrays.toString(input2));
+		
+		//System.out.println(Arrays.toString(input2));
+		
 		Arrays.sort(input2);
 		
 		System.out.println(Arrays.toString(input2));

@@ -7,12 +7,12 @@ public class employee {
 	
 	
 	//getter and setter method for name
-	public String getname()
+	public String getName()
 	{
 		return name;
 	}
 	
-	public String setname(String name)
+	public String setName(String name)
 	{
 		this.name=name;
 		return name;
@@ -20,12 +20,12 @@ public class employee {
 
 	//getter and setter method for age
 	
-	public int getage()
+	public int getAge()
 	{
 		return age;
 	}
 	
-	public int setage(int age)
+	public int setAge(int age)	
 	{
 		this.age=age;
 		return age;

@@ -6,10 +6,11 @@ public class Primenumber {
 
 		int input =1001;
 
-		if(isPrime(input)) {
+		if(isPrime(input)) 
+		{
 			System.out.println("Entered number is" + input + "Prime number");
 
-		}else {
+		} else {
 
 			System.out.println("Entered number is Not prime");
 		}

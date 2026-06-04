@@ -31,7 +31,7 @@ public class reverseAString {
 		String input1 = "Mohan";
 		String rev1 = "";
 		
-		char a[] = input1.toCharArray();
+		char[] a = input1.toCharArray();
 		
 		for(char x : a)
 		{

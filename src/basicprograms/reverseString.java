@@ -22,7 +22,8 @@ public class reverseString {
 		String input1 = "Mohan";
 		String reverse = "";
 
-		for (int i=input1.length()-1;i>=0;i--) {
+		for (int i=input1.length()-1;i>=0;i--) 
+		{
 			reverse +=input1.charAt(i);
 		}
 

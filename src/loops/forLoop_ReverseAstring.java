@@ -11,7 +11,7 @@ public class forLoop_ReverseAstring {
 		String input = sc.nextLine();
 		String rev = "";
 		
-		for(int i=input.length()-1; i>=0;i--)
+		for(int i=input.length()-1;i>=0;i--)
 			
 		{
 			rev=rev+input.charAt(i);

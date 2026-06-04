@@ -8,7 +8,7 @@ public class Single_DimensionArrays {
 	//Example 1
 	//Using memory allocation
 		
-	int a[]= new int [10];
+	int[] a= new int [10];
 	a[0]=10;
 	a[1]=20;
 	a[2]=30;

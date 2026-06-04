@@ -11,6 +11,9 @@ public class main_method {
 		dummy_methods dm = new dummy_methods();
 		dm.dummy();
 		
+		
+		
+		
 		dummy_methods dm1 = new dummy_methods();
 		String d=dm1.withdata();
 		

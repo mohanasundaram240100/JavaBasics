@@ -9,9 +9,10 @@ public class SortingElementsinArray {
 		//Sorting an array in ascending order
 		
 		//Using default sorting method
+		
 		int input[]= {125,10,522,254,3000,2500,300,4000,500};
 		
-		System.out.println(Arrays.toString(input));
+		//System.out.println(Arrays.toString(input));
 		
 		Arrays.sort(input);
 		
