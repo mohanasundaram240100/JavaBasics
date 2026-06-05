@@ -1,4 +1,4 @@
-package Problems;
+package basicprograms;
 
 public class Swap2Numbers {
 
