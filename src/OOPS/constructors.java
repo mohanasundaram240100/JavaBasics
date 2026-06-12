@@ -9,11 +9,11 @@ public class constructors
 	int age;
 	
 	//Using local variables
-	constructors(int id1, String name1, int age1)
+	constructors(int id, String name, int age)
 	{
-		id=id1;
-		name=name1;
-		age=age1;
+		this.id=id;
+		this.name=name;
+		this.age=age;
 	}
 	
 	void print()

@@ -14,7 +14,7 @@ public class reverseInteger {
 		//given=given/10
 
 
-		int num=0;
+		int num;
 		int reverse=0;
 
 		Scanner scanner =new Scanner(System.in);
@@ -22,18 +22,13 @@ public class reverseInteger {
 		num=scanner.nextInt();
 
 
-		while(num!=0) {
-
-		
+		while(num!=0) 
+		{
 			reverse=reverse*10+num%10;
 			num=num/10;
 
-			System.out.println(reverse);
-
-
 		}
-
-
+		System.out.println(reverse);
 
 	}
 

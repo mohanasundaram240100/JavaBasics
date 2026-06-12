@@ -8,8 +8,8 @@ public class reverseString {
 		//Using String Builder or String Buffer method
 
 		String input = "Mohanasundaram";
-		StringBuilder reversed =new StringBuilder();
-		reversed.append(input);
+		StringBuilder reversed =new StringBuilder(input);
+		//reversed.append(input);
 		reversed.reverse();
 		System.out.println(reversed);
 
@@ -24,7 +24,7 @@ public class reverseString {
 
 		for (int i=input1.length()-1;i>=0;i--) 
 		{
-			reverse +=input1.charAt(i);
+			reverse =reverse+input1.charAt(i);
 		}
 
 		System.out.println(reverse);
