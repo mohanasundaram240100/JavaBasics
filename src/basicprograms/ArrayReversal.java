@@ -7,10 +7,10 @@ public class ArrayReversal {
 		
 		int input[]= {12,23,33,24,25,12,16,19,20};	
 		
-		for (int i=input.length-1;i>=0;i--) {
+		for (int i=input.length-1;i>=0;i--) 
+		{
 			
 			System.out.println(input[i]);
-			
 			
 		}
 		
