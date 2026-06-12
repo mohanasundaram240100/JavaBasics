@@ -10,7 +10,8 @@ public class SingleDimArray {
 
 		//Normal for loop
 		
-		for(int i=0;i<=arr.length-1;i++) {
+		for(int i=0;i<=arr.length-1;i++) 
+		{
 			
 			System.out.println(arr[i]);
 		}
