@@ -32,7 +32,7 @@ public class switchCase {
 		
 		
 		Scanner sc = new Scanner(System.in);
-		System.out.println("Enter the week number");
+		System.out.println("Enter the week number: ");
 		int weeknumber=sc.nextInt();
 		
 		 switch(weeknumber)
