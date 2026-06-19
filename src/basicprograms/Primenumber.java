@@ -17,7 +17,8 @@ public class Primenumber {
 
 	}
 
-	private static boolean isPrime(int input) {
+	private static boolean isPrime(int input) 
+	{
 		return false;
 	}
 
