@@ -18,7 +18,6 @@ public class Primenumber {
 	}
 
 	private static boolean isPrime(int input) {
-		// TODO Auto-generated method stub
 		return false;
 	}
 
