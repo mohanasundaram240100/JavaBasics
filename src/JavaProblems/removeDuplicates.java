@@ -23,6 +23,18 @@ public class removeDuplicates {
 		}
 		
 		
+		String[] name= {"Mohan", "Kannan", "Mohan", "Lokesh"};
+		HashSet<String> myset1 = new HashSet<String>();
+		
+		for(String s: name)
+		{
+			myset1.add(s);
+		}
+		
+		for(String set:myset1)
+		{
+			System.out.println(set);
+		}
 	}
 
 }
