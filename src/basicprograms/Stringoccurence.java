@@ -3,7 +3,7 @@ package basicprograms;
 public class Stringoccurence {
 
 
-	public static void main (String[] args) {
+public static void main (String[] args) {
 
 		String input = "Swiss"; //input value
 		char toFind = 's'; 		//need to find the character
